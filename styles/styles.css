@@ -1,0 +1,11 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Ibarra+Real+Nova&family=Lato&family=League+Spartan:wght@700&family=Poppins:wght@100;400;500;600&display=swap');
+
+/* common style or utilites */
+body {
+    font-family: 'Antonio', sans-serif;
+    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
