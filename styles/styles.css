@@ -8,6 +8,8 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'League Spartan', sans-serif;
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /* top banner style */
@@ -65,6 +67,11 @@ body {
 }
 
 /* card-and-details */
+.card-and-details-section {
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+
 .card-and-details {
     display: flex;
 }
@@ -83,8 +90,8 @@ body {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-    background-color: goldenrod;
-    color: white;
+    background-color: white;
+    color: goldenrod;
     padding: 10px 20px;
     border-radius: 8px;
     font-weight: 600;
@@ -92,8 +99,8 @@ body {
 }
 
 .side-nav-button:hover {
-    color: goldenrod;
-    background-color: white;
+    color: white;
+    background-color: goldenrod;
 }
 
 .card-container {
@@ -124,4 +131,63 @@ body {
 
 .single-card-container span {
     margin-right: 8px;
+}
+
+/* footer style */
+.footer-style {
+    background-color: rgb(0, 89, 118);
+}
+
+.footer-text {
+    padding: 20px;
+}
+
+.footer-style h2 {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.footer-text hr {
+    width: 60%;
+}
+
+.contuct-info {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.contuct-info span {
+    color: white;
+    font-weight: 300;
+    margin-right: 30px;
+}
+
+.social-contact {
+    text-align: center;
+}
+
+.social-contact i {
+    background-color: rgba(176, 235, 255, 0.903);
+    padding: 5px;
+    border-radius: 6px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.fa-square-facebook {
+    color: rgb(0, 85, 255);
+}
+
+.fa-square-instagram {
+    color: rgb(227, 2, 223);
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.fa-square-twitter {
+    color: rgb(0, 183, 255);
 }
