@@ -12,6 +12,49 @@ body {
     padding: 0;
 }
 
+/* navigation container */
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navigation-logo-text {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-logo-text h4 {
+    margin-left: 4px;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 173, 231);
+    text-shadow: 5px 8px 20px rgb(106, 106, 106);
+}
+
+.navigation-logo-text img {
+    width: 7%;
+    height: 7%;
+}
+
+.nav-button a {
+    text-decoration: none;
+    background-color: rgba(118, 221, 255, 0.437);
+    color: rgb(70, 70, 70);
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-left: 5px;
+}
+
+.nav-button a:hover {
+    background-color: rgba(23, 197, 255, 0.927);
+    color: white;
+}
+
 /* top banner style */
 .top-banner-section,
 .card-and-details-section {
@@ -125,8 +168,18 @@ body {
     border-radius: 5px;
 }
 
+.single-card-container {
+    border: 1px solid rgba(183, 183, 183, 0.874);
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
 .single-card-container i {
     margin-right: 10px;
+}
+
+.single-card-container h3 {
+    width: 16em;
 }
 
 .single-card-container span {
